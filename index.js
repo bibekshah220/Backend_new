@@ -18,6 +18,10 @@ app.get("/login",(req,res)=>{
     res.send("Login page");
 });
 
+app.get("/linkedin",(req,res)=>{
+    res.send("bibek.com");
+});
+
 
 app.listen(port, () => {
   console.log(`Example app listening at ${port}`);
