@@ -10,6 +10,10 @@ app.get("/twitter",(req,res)=>{
     res.send("bibek.com");
 });
 
+app.get("/facebook",(req,res)=>{
+    res.send("bibek.com");
+});
+
 
 app.listen(port, () => {
   console.log(`Example app listening at ${port}`);
