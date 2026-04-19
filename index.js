@@ -14,6 +14,10 @@ app.get("/facebook",(req,res)=>{
     res.send("bibek.com");
 });
 
+app.get("/login",(req,res)=>{
+    res.send("Login page");
+});
+
 
 app.listen(port, () => {
   console.log(`Example app listening at ${port}`);
