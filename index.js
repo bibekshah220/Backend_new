@@ -6,8 +6,8 @@ app.get('/', (req, res) => {
   res.send('Hello World!');
 });
 
-app.get("twitter",(req,res)=>{
-    res.send("twitter api");
+app.get("/twitter",(req,res)=>{
+    res.send("bibek.com");
 });
 
 
